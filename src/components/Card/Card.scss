@@ -1,0 +1,49 @@
+.card-container {
+  width: 800px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  justify-items: center;
+  align-items: center;
+  padding: 20px;
+  background: linear-gradient(to bottom, #ffb84d, #ff6600);
+  .cards {
+    width: 200px;
+    // max-width: 300px;
+    margin: 10px;
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    transition: transform 0.3s ease-in-out;
+  }
+  .cards img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    transition: transform 0.3s ease-in-out;
+  }
+  .cards img:hover {
+    transform: scale(1.2);
+  }
+
+  .cards:hover {
+    transform: scale(1.05);
+  }
+  .title h1 {
+    font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+    color: black;
+  }
+
+}
+.reactLogo {
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+}
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
