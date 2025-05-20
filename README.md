@@ -18,7 +18,7 @@ Click on any card to toggle between the language logo and details.
 
 ## 🛠️ Tech Stack
 - React  
-- JavaScript (ES6)  
+- JavaScript  
 - SCSS for styling
 - **Modular file structure**
 
