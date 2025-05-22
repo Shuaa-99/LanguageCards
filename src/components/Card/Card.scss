@@ -1,14 +1,16 @@
 .card-container {
-  width: 800px;
+  width: 600px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 20px;
   justify-items: center;
   align-items: center;
   padding: 20px;
-  background: linear-gradient(to bottom, #ffb84d, #ff6600);
+  background: linear-gradient(to bottom, #ff6600, #ffb84d);
+  border-radius: 10px;
   .cards {
     width: 200px;
+    height: 110px;
     // max-width: 300px;
     margin: 10px;
     border: 1px solid #ddd;
@@ -16,11 +18,12 @@
     text-align: center;
     background-color: #f9f9f9;
     border-radius: 8px;
-    transition: transform 0.3s ease-in-out;
+    // transition: transform 0.3s ease-in-out;
+    opacity: 0.8;
   }
   .cards img {
     width: 100px;
-    height: 100px;
+    height: 80px;
     object-fit: contain;
     transition: transform 0.3s ease-in-out;
   }
@@ -29,16 +32,18 @@
   }
 
   .cards:hover {
-    transform: scale(1.05);
+    border-color: blue;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 blue;
   }
   .title h1 {
     font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+    font-size: 20px;
     color: black;
   }
-
 }
 .reactLogo {
-  width: 300px;
+  width: 400px;
   height: 300px;
   margin: 0 auto;
 }
